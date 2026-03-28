@@ -1,5 +1,7 @@
 # All Windows 11 Bypasses to Create a Local Account
 
+~~(The text formatting will be fixed later. It's a little messy at the moment)~~
+
 ## A. External methods:
 
 ### Use Rufus to modify ISO
