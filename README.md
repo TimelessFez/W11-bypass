@@ -38,6 +38,7 @@ Connect to the Internet. Shift + F10. Type the command below:
 ### Using regedit to enable local account (works in 25H2)
 Shift + F10
 > reg add HKLM\Software\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+
 >  shutdown /r /t 0
 
 ### Audit Mode (SysPrepTool)
@@ -50,6 +51,7 @@ Win + R, then enter ``sysprep``, run.
 Then open ``sysprep.exe``.
 Open a Command Prompt window and create a local Admin account:
 > net user "YourName" /add
+
 > net localgroup administrators "YourName" /add
 In the SysPrepTool window, set the following options:
 - Enter System Out-of-Box Experience (OOBE)
@@ -70,7 +72,9 @@ Shift + F10
 > net.exe user 'username' 'password' /add
 (password can be left blank)
 > net.exe localgroup Administrators 'username' /add
+
 > cd oobe
+
 > msoobe.exe && shutdown.exe -r
 
 ### Start installer in local-only mode
