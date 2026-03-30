@@ -17,16 +17,15 @@
 * [3. Developer console method (25H2)](#3-developer-console-method)
 * [4. Registry Editor (BypassNRO)](#4-using-registry-editor-to-enable-local-account)
 * [5. Audit Mode (SysPrepTool)](#5-audit-mode-syspreptool)
-* [6. Manually create account & force skip (Var 1)](#6-manually-create-local-account-and-force-skip-variation-1)
-* [10. Domain join (Pro version only)](#10-domain-join-in-w11-pro-version)
+* [6. Manually create account & force skip (Var 1)](#6-manually-create-local-account-and-force-skip---variation-1)
+* [9. Domain join (Pro version only)](#10-domain-join-in-w11-pro-version)
 
 #### **Patched / Version Specific**
-* [7. Manually create account & force skip (Var 2)](#7-manually-create-local-account-and-force-skip---variation-2)
+* [7. Manually create account & force skip (Alternate)](#7-manually-create-local-account-and-force-skip---alternate)
 * [8. Start installer in local-only mode](#8-start-installer-in-local-only-mode)
-* [9. Start installer in local-only mode (Alt)](#9-start-installer-in-local-only-mode-1)
-* [11. Bypass NRO command](#11-bypass-nro-command-dont-connect-to-any-interface)
-* [12. Terminate Connection Flow](#12-terminate-connection-flow)
-* [13. E-mail field bypass](#13-e-mail-field-bypass)
+* [10. Bypass NRO command](#11-bypass-nro-command-dont-connect-to-any-interface)
+* [11. Terminate Connection Flow](#12-terminate-connection-flow)
+* [12. E-mail field bypass](#13-e-mail-field-bypass)
 
 ⠀
 
@@ -223,24 +222,6 @@ or
 
 ```start ms-cxh://SETADDLOCALONLY```
 
-
----
-
-
-### 9. Start installer in local-only mode
-
-⚠️ Patched in Dev 26220.6772 & Beta 26120.6772 (6 Oct 2025)
-
-
-```start ms-cxh:LOCALONLY```
-
-or
-
-```start ms-cxh://LOCALONLY```
-
-or
-
-```start ms-cxh://SETADDLOCALONLY```
 
 ---
 
