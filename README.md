@@ -2,6 +2,38 @@
 
 ~~(The text formatting will be fixed later. It's a little messy at the moment)~~
 
+# Table of Contents
+
+### [A. External Methods](#a-external-methods)
+* [1. Use Rufus to modify ISO](#1-use-rufus-to-modify-iso)
+* [2. Create an autounattend.xml script](#2-create-an-autounattendxml-script-online)
+
+### [B. Installer Methods](#b-installer-methods)
+#### **Working / Active**
+* [1. Networking hardware interrupt](#1-networking-hardware-interrupt)
+* [2. Chris Titus script](#2-chris-titus-script)
+* [3. Developer console method (25H2)](#3-developer-console-method)
+* [4. Registry Editor (BypassNRO)](#4-using-registry-editor-to-enable-local-account)
+* [5. Audit Mode (SysPrepTool)](#5-audit-mode-syspreptool)
+* [6. Manually create account & force skip (Var 1)](#6-manually-create-local-account-and-force-skip-variation-1)
+* [10. Domain join (Pro version only)](#10-domain-join-in-w11-pro-version)
+
+#### **Patched / Version Specific**
+* [7. Manually create account & force skip (Var 2)](#7-manually-create-local-account-and-force-skip---variation-2)
+* [8. Start installer in local-only mode](#8-start-installer-in-local-only-mode)
+* [9. Start installer in local-only mode (Alt)](#9-start-installer-in-local-only-mode-1)
+* [11. Bypass NRO command](#11-bypass-nro-command-dont-connect-to-any-interface)
+* [12. Terminate Connection Flow](#12-terminate-connection-flow)
+* [13. E-mail field bypass](#13-e-mail-field-bypass)
+
+### [Quick Fixes & Troubleshooting](#quick-fixes)
+* [Forget Wireless Networks](#-forget-a-specific-network-case-sensitive)
+* [Enable/Disable Hidden Admin Account](#-enabling-or-disabling-the-hidden-administrator-account-if-you-get-stuck-with-no-administrator-account)
+* [Delete DefaultUser0](#-delete-defaultuser0)
+
+---
+---
+
 ## A. External methods:
 
 ### 1. Use Rufus to modify ISO
