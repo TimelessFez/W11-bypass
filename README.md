@@ -8,6 +8,8 @@
 * [1. Use Rufus to modify ISO](#1-use-rufus-to-modify-iso)
 * [2. Create an autounattend.xml script](#2-create-an-autounattendxml-script-online)
 
+⠀
+
 ### Installer Methods
 #### **Working / Active**
 * [1. Networking hardware interrupt](#1-networking-hardware-interrupt)
@@ -25,6 +27,8 @@
 * [11. Bypass NRO command](#11-bypass-nro-command-dont-connect-to-any-interface)
 * [12. Terminate Connection Flow](#12-terminate-connection-flow)
 * [13. E-mail field bypass](#13-e-mail-field-bypass)
+
+⠀
 
 ### Quick Fixes & Troubleshooting
 * [Forget Wireless Networks](#-forget-a-specific-network-case-sensitive)
