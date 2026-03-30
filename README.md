@@ -4,11 +4,11 @@
 
 # Table of Contents
 
-### [A. External Methods](#a-external-methods)
+### External Methods
 * [1. Use Rufus to modify ISO](#1-use-rufus-to-modify-iso)
 * [2. Create an autounattend.xml script](#2-create-an-autounattendxml-script-online)
 
-### [B. Installer Methods](#b-installer-methods)
+### Installer Methods
 #### **Working / Active**
 * [1. Networking hardware interrupt](#1-networking-hardware-interrupt)
 * [2. Chris Titus script](#2-chris-titus-script)
@@ -26,7 +26,7 @@
 * [12. Terminate Connection Flow](#12-terminate-connection-flow)
 * [13. E-mail field bypass](#13-e-mail-field-bypass)
 
-### [Quick Fixes & Troubleshooting](#quick-fixes)
+### Quick Fixes & Troubleshooting
 * [Forget Wireless Networks](#-forget-a-specific-network-case-sensitive)
 * [Enable/Disable Hidden Admin Account](#-enabling-or-disabling-the-hidden-administrator-account-if-you-get-stuck-with-no-administrator-account)
 * [Delete DefaultUser0](#-delete-defaultuser0)
